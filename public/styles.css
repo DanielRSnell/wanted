@@ -1,0 +1,44 @@
+html,
+body {
+	height: 100%;
+	background-image: url("./background.jpg");
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+body {
+	margin: 0;
+}
+
+.container {
+	height: 100%;
+	padding: 0;
+	margin: 0;
+	display: flex;
+	flex-direction: column;
+	margin: 3rem;
+}
+
+.wanted-header {
+	font-family: "SERIAL PUBLICATION";
+	font-size: 180px;
+	margin: 0;
+	padding: 0;
+	text-align: center;
+}
+
+.desc {
+	text-align: center;
+}
+.wanted-image {
+	align-self: center;
+}
+.chat-controller {
+	text-align: center;
+}
+
+@font-face {
+	font-family: "SERIAL PUBLICATION";
+	src: url("./font/SerialPublicationDEMO.ttf") format("truetype");
+}

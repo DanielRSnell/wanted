@@ -1,38 +1,30 @@
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="utf-8" />
-    <link rel="shortcut icon" href="%PUBLIC_URL%/favicon.ico" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <meta name="theme-color" content="#000000" />
-    <!--
-      manifest.json provides metadata used when your web app is installed on a
-      user's mobile device or desktop. See https://developers.google.com/web/fundamentals/web-app-manifest/
-    -->
-    <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
-    <!--
-      Notice the use of %PUBLIC_URL% in the tags above.
-      It will be replaced with the URL of the `public` folder during the build.
-      Only files inside the `public` folder can be referenced from the HTML.
-
-      Unlike "/favicon.ico" or "favicon.ico", "%PUBLIC_URL%/favicon.ico" will
-      work correctly both with client-side routing and a non-root public URL.
-      Learn how to configure a non-root public URL by running `npm run build`.
-    -->
-    <title>React App</title>
-  </head>
+<html>
+  <header>
+    <title>Simon Nag's To Much.</title>
+    <link rel="stylesheet" href="styles.css" />
+  </header>
   <body>
-    <noscript>You need to enable JavaScript to run this app.</noscript>
-    <div id="root"></div>
-    <!--
-      This HTML file is a template.
-      If you open it directly in the browser, you will see an empty page.
-
-      You can add webfonts, meta tags, or analytics to this file.
-      The build step will place the bundled scripts into the <body> tag.
-
-      To begin the development, run `npm start` or `yarn start`.
-      To create a production bundle, use `npm run build` or `yarn build`.
-    -->
+    <div class="container">
+    <h1 class="wanted-header">WANTED</h1>
+   
+      <img class="wanted-image" src="./0.jpeg" />
+      
+      <p class="desc">
+        If you've seen this man, please contact the authorities with the button below.
+      </p>
+      <div class="chat-controller">
+      <a id="liveagent_button_online_573f4000000MkYj" href="javascript://Chat" style="display: none;" onclick="liveagent.startChat('573f4000000MkYj')"><img src="http://s3-us-east-2.amazonaws.com/www.thiswayglobal.com/wp-content/uploads/2019/07/16202222/Chatbot_Online.svg" /></a><div id="liveagent_button_offline_573f4000000MkYj" style="display: none;" onclick="liveagent.startChat('573f4000000MkYj')"><img src="http://s3-us-east-2.amazonaws.com/www.thiswayglobal.com/wp-content/uploads/2019/07/16202225/Chatbot_Offline.svg" /></div><script type="text/javascript">
+        if (!window._laq) { window._laq = []; }
+        window._laq.push(function(){liveagent.showWhenOnline('573f4000000MkYj', document.getElementById('liveagent_button_online_573f4000000MkYj'));
+        liveagent.showWhenOffline('573f4000000MkYj', document.getElementById('liveagent_button_offline_573f4000000MkYj'));
+        });</script>
+        
+              <script type='text/javascript' src='https://c.la4-c1-dfw.salesforceliveagent.com/content/g/js/46.0/deployment.js'></script>
+        <script type='text/javascript'>
+        liveagent.init('https://d.la4-c1-dfw.salesforceliveagent.com/chat', '572f4000000Mlfq', '00Df4000004jyxP');
+        </script>
+        </div>
+        <div id="root" />
+  </div>
   </body>
 </html>
